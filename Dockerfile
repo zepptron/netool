@@ -8,7 +8,6 @@ RUN apk add --update \
   iputils \
   iproute2 \
   bind-tools && \
-  crap && \
   rm -rf /var/cache/apk/*
 
 WORKDIR /root
